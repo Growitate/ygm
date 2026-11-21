@@ -1,0 +1,20 @@
+{
+  "name": "ygm-global-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4195",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4195"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.14",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.28.1",
+    "lucide-react": "0.468.0"
+  }
+}

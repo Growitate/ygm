@@ -1,0 +1,90 @@
+export const products = [
+  {
+    id: 'granite',
+    name: 'Granite',
+    descriptor: 'Strength with character',
+    image: '/images/Black-Galaxy-Counter-Top%20img.webp',
+    alt: 'Black Galaxy granite countertop slab with copper and golden mineral specks',
+    imageClass: 'stone-granite',
+    description: 'A versatile natural stone considered for projects that call for visual depth and a resilient surface. Explore available colours, finishes and sourcing options with us.',
+    varieties: [
+      {
+        id: 'absolute-black',
+        name: 'Absolute Black',
+        image: '/images/WhatsApp%20Image%202026-11-16%20at%203.53.20%20PM.jpeg',
+        alt: 'Absolute Black Indian granite slab',
+      },
+      {
+        id: 'black-galaxy',
+        name: 'Black Galaxy',
+        image: '/images/black%20galaxy.jpg',
+        alt: 'Black Galaxy Indian granite slab',
+      },
+      {
+        id: 'black-pearl',
+        name: 'Black Pearl',
+        image: '/images/black%20pearl.jpg',
+        alt: 'Black Pearl Indian granite slab',
+      },
+      {
+        id: 'imperial-red',
+        name: 'Imperial Red',
+        image: '/images/imperial%20red.jpg',
+        alt: 'Imperial Red Indian granite slab',
+      },
+      {
+        id: 'steel-grey',
+        name: 'Steel Grey',
+        image: '/images/steel%20grey.jpg',
+        alt: 'Steel Grey Indian granite slab',
+      },
+      {
+        id: 'tan-brown',
+        name: 'Tan Brown',
+        image: '/images/tan%20brown.jpg',
+        alt: 'Tan Brown Indian granite slab',
+      },
+      {
+        id: 'viscount-white',
+        name: 'Viscount White',
+        image: '/images/viscount%20white.jpg',
+        alt: 'Viscount White Indian granite slab',
+      },
+    ],
+  },
+  {
+    id: 'limestone',
+    name: 'Limestone',
+    descriptor: 'Quiet, tactile tones',
+    image: '/images/limestone%20img.webp',
+    alt: 'Natural Indian limestone slab with authentic surface texture',
+    imageClass: 'stone-limestone',
+    description: 'Subtle textures and a warm, grounded character make limestone a thoughtful material choice. Tell us the look and use you have in mind to begin a focused sourcing conversation.',
+    varieties: [
+      {
+        id: 'kadappa-black',
+        name: 'Kadappa Black',
+        image: '/images/kadappa%20black.jpg',
+        alt: 'Kadappa Black Indian limestone slab',
+      },
+      {
+        id: 'kota-blue',
+        name: 'Kota Blue',
+        image: '/images/kota%20blue.jpg',
+        alt: 'Kota Blue Indian limestone slab',
+      },
+      {
+        id: 'tandur-grey',
+        name: 'Tandur Grey',
+        image: '/images/tandur%20grey.jpg',
+        alt: 'Tandur Grey Indian limestone slab',
+      },
+      {
+        id: 'tandur-yellow',
+        name: 'Tandur Yellow',
+        image: '/images/tandur%20yellow.jpg',
+        alt: 'Tandur Yellow Indian limestone slab',
+      },
+    ],
+  },
+];
