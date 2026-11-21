@@ -375,10 +375,11 @@ h1 span,h2 span,h1 em,h2 em{color:var(--sand-rich);font-style:normal}
 .footer-label{margin-bottom:4px;color:var(--sand-natural);font-size:8px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
 .footer-col>a{display:flex;align-items:center;gap:5px;color:#cdd2d6;font-size:9px;transition:color .2s}
 .footer-col>a:hover{color:var(--sand-natural)}
-.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-block:13px;border-top:1px solid #23272b;color:#7b8086;font-size:8px}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-block:15px;border-top:1px solid #23272b;color:#858a90;font-size:11px}
 .footer-bottom a{color:#9da2a8}
 .footer-bottom a:hover{color:var(--sand-natural)}
-.footer-built-by a{color:var(--sand-natural);text-decoration:underline;text-underline-offset:2px}
+.footer-built-by{font-size:11.5px;color:#a8adb3}
+.footer-built-by a{color:var(--sand-natural);font-weight:600;text-decoration:underline;text-underline-offset:3px}
 .footer-built-by a:hover{color:#ffffff}
 
 @keyframes rise-in{from{opacity:0;transform:translateY(13px)}to{opacity:1;transform:translateY(0)}}
@@ -606,8 +607,9 @@ h1 span,h2 span,h1 em,h2 em{color:var(--sand-rich);font-style:normal}
   .footer-note{margin-left:0;font-size:8px}
   .footer-col{gap:8px}
   .footer-col>a{font-size:10px;padding:3px 0}
-  .footer-bottom{flex-direction:column;align-items:flex-start;gap:8px;padding-block:12px;font-size:9px}
+  .footer-bottom{flex-direction:column;align-items:flex-start;gap:8px;padding-block:14px;font-size:11px}
   .footer-bottom .footer-tagline{display:none}
+  .footer-built-by{font-size:11px}
 }
 
 /* ========================================================
