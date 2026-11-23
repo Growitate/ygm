@@ -46,7 +46,7 @@ export function SiteFooter() {
         <div className="footer-col"><span className="footer-label">Email</span><a href="mailto:contact@ygmglobal.in">contact@ygmglobal.in</a><a href="https://www.instagram.com/ygmglobal01?dlrf=MTAybzBtN2hsNzg4aA==" target="_blank" rel="noreferrer">Instagram <ArrowUpRight size={13} /></a><a href="https://www.facebook.com/share/16MzTaXjM6y/" target="_blank" rel="noreferrer">Facebook <ArrowUpRight size={13} /></a><a href="https://www.linkedin.com/in/ygm-global-98182344a" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight size={13} /></a></div>
         <div className="footer-col"><span className="footer-label">Call / WhatsApp</span><a href="tel:+918792720101">+91 87927 20101</a><a href="https://wa.me/918792720101" target="_blank" rel="noreferrer">Message us on WhatsApp <ArrowUpRight size={13} /></a></div>
       </div>
-      <div className="container footer-bottom"><span>© {new Date().getFullYear()} YGM Global Private Limited</span><span className="footer-tagline">Natural stone connections, from India to the world.</span><span className="footer-built-by">Built by <a href="https://growitate.com" target="_blank" rel="noopener noreferrer">Growitate</a></span><Link to="/privacy">Privacy &amp; enquiries</Link></div>
+      <div className="container footer-bottom"><span>© {new Date().getFullYear()} YGM Global Private Limited</span><span className="footer-tagline">Natural stone connections, from India to the world.</span><Link to="/privacy">Privacy &amp; enquiries</Link></div>
     </footer>
   );
 }
